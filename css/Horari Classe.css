@@ -1,0 +1,73 @@
+
+    table {
+        width: 50%; 
+        margin-left: auto;
+  margin-right: auto;
+      }
+    
+
+      
+    td, th {
+        height: 50px; 
+        text-align: center;
+      }
+    
+
+.ll{
+
+    background-color: darkseagreen;
+    text-align: center;
+    
+ 
+ }
+ 
+ .pa{
+ 
+     background-color: yellowgreen;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ 
+ .pv{
+ 
+ 
+     background-color: tomato;
+   
+ 
+ }
+ 
+ .pi{
+ 
+     background-color: aqua;
+ 
+ }
+ .pe{
+ 
+ background-color: slategrey;
+ 
+ 
+ }
+ 
+ .pu{
+ 
+     background-color: seagreen;
+ 
+ }
+ 
+ .po{
+ 
+ background-color: orangered;
+ 
+ }
+
+ .de{
+
+    text-align: center;
+ }
+
+ .im{
+
+    width: 68px;
+ }
+ .si{
+    text-align: center;
+ }
