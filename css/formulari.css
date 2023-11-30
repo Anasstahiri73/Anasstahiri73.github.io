@@ -5,7 +5,8 @@
 }
 
 .nom{
-background-color: tomato;
+background-color: dodgerblue;
+font-style: italic;
 
 
 }
@@ -16,7 +17,10 @@ background-color: tomato;
 }
 
 .nac{
-background-color: yellow;
+background-color: orangered;
+font-style: italic;
+
+
 }
 
 .est{
@@ -24,9 +28,9 @@ background-color: yellowgreen;
 }
 
 .idi{
-background-color: darkcyan;
+background-color: red;
 }
 
 .env{
-background-color: darkred;
+background-color: gray;
 }

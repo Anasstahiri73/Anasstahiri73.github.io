@@ -13,12 +13,12 @@
 
 
 
-    <form class="form">
+    <form class="form" action="/php/form.php">
         <fieldset class="nom">
-          <legend class="leg negrita">INFORMACIÓN BÁSICA</legend>
+          <legend class="leg negrita">INFORMACIÓN BASICA</legend>
     
           <label for="fname">Nombre</label><br>
-          <input type="text" id="fname" name="fname"><br><br>
+          <input type="text" id="fname" name="nombre"><br><br>
     
           <label for="altura">Altura en centimetros</label><br>
           <input type="number" id="altura" name="altura" value="100" min="0" max="300" required> cm
@@ -26,11 +26,11 @@
           <br><br>
     
           <label for="c">Email</label><br>
-          <input type="email" id="c" name="correo">
+          <input type="email" id="c" name="email" placeholder="exemple@gmail.com">
           <br><br>
     
           <label for="datemax">Fecha de nacimiento:</label><br>
-          <input type="date" id="datemax" name="datemax" max="2022-12-31">
+          <input type="date" id="datemax" name="fecha" max="2022-12-31">
           <br><br>
         </fieldset>
     
@@ -58,13 +58,13 @@
     
         <fieldset class="idi">
           <legend class="leg">IDIOMAS</legend>
-          <input type="checkbox" id="catalan" name="idioma" value="Catalán">
+          <input type="checkbox" id="catalan" name="idiomas[]" value="Catalán">
           <label for="catalan">Catalán</label>
-          <input type="checkbox" id="castellano" name="idioma" value="Castellano">
+          <input type="checkbox" id="castellano" name="idiomas[]" value="Castellano">
           <label for="castellano">Castellano</label>
-          <input type="checkbox" id="ingles" name="idioma" value="Inglés">
+          <input type="checkbox" id="ingles" name="idiomas[]" value="Inglés">
           <label for="ingles">Inglés</label>
-          <input type="checkbox" id="aleman" name="idioma" value="Alemán">
+          <input type="checkbox" id="aleman" name="idiomas[]" value="Alemán">
           <label for="aleman">Alemán</label>
           <br><br>
         </fieldset>
