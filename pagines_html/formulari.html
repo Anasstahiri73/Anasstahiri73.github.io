@@ -13,35 +13,76 @@
 
 
 
-    <form>
-
-        <fieldset class="p">
-            <legend>Informacion basica</legend> <label for="">Nombre</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <br>
-            <label for="b">Altura</label><br>
-            <input type="number" id="b" name="b" value="0"> cm <output name="x" for="a b"></output><br>
-            <br>
-            <label for="c">Correo</label><br>
-            <input type="email" id="c" name="fname"><br>
-            <br>
-            <label for="datemax">Fechaa de nacimiento</label><br>
-            <input type="date" id="datemax" name="datemax" max="2022-12-31"><br>
-            <br>
+    <form class="form">
+        <fieldset class="nom">
+          <legend class="leg negrita">INFORMACIÓN BÁSICA</legend>
+    
+          <label for="fname">Nombre</label><br>
+          <input type="text" id="fname" name="fname"><br><br>
+    
+          <label for="altura">Altura en centimetros</label><br>
+          <input type="number" id="altura" name="altura" value="100" min="0" max="300" required> cm
+          <output name="x" for="altura"></output>
+          <br><br>
+    
+          <label for="c">Email</label><br>
+          <input type="email" id="c" name="correo">
+          <br><br>
+    
+          <label for="datemax">Fecha de nacimiento:</label><br>
+          <input type="date" id="datemax" name="datemax" max="2022-12-31">
+          <br><br>
         </fieldset>
-
-        <fieldset class="p">
-            <legend>NACIONALIDAD</legend> <input type="radio" id="ESPAÑOLA" name="fav_language" value="ESPAÑOLA"> <label for="ESPAÑOLA">ESPAÑOLA</label> <input type="radio" id="COMUNITARIO" name="fav_language" value="COMUNITARIO"> <label for="COMUNITARIO">COMUNITARIO(UE)</label> <input type="radio" id="NO COMUNITARIO" name="fav_language" value="NO COMUNITARIO"> <label for="NO COMUNITARIO">NO COMUNITARIO</label><br>
-            <br>
-          </fieldset>
-
-
-     </form>
+    
+        <fieldset class="nac">
+          <legend class="leg">NACIONALIDAD</legend>
+          <input type="radio" id="espanola" name="fav_language" value="ESPAÑOLA">
+          <label for="espanola">ESPAÑOLA</label>
+          <input type="radio" id="comunitario" name="fav_language" value="COMUNITARIO">
+          <label for="comunitario">COMUNITARIO(UE)</label>
+          <input type="radio" id="no_comunitario" name="fav_language" value="NO COMUNITARIO">
+          <label for="no_comunitario">NO COMUNITARIO</label>
+          <br><br>
+        </fieldset>
+    
+        <fieldset class="est">
+          <legend class="leg">ESTUDIOS</legend>
+          <select name="Estudios">
+            <option>ESO</option>
+            <option>GM</option>
+            <option>GS</option>
+            <option>Universidad</option>
+          </select>
+          <br><br>
+        </fieldset>
+    
+        <fieldset class="idi">
+          <legend class="leg">IDIOMAS</legend>
+          <input type="checkbox" id="catalan" name="idioma" value="Catalán">
+          <label for="catalan">Catalán</label>
+          <input type="checkbox" id="castellano" name="idioma" value="Castellano">
+          <label for="castellano">Castellano</label>
+          <input type="checkbox" id="ingles" name="idioma" value="Inglés">
+          <label for="ingles">Inglés</label>
+          <input type="checkbox" id="aleman" name="idioma" value="Alemán">
+          <label for="aleman">Alemán</label>
+          <br><br>
+        </fieldset>
+    
+        <fieldset class="env"> 
+          <button type="submit">Enviar</button>
+          <button type="reset">Cancelar</button>
+          <br>
+      </fieldset>
+    
+        
+    
+      </form>
 
 
      <p><a href="../index.html">Volver al index</a></p>
           
-    <img src="../imagenes/" alt="formulari">
+    <img src="../imagenes/formularivalidador.PNG" alt="formulari">
     
 
 </body>

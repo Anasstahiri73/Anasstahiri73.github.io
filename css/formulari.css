@@ -1,4 +1,32 @@
-.p{
+.form{
 
     width: 600px;
+   
+}
+
+.nom{
+background-color: tomato;
+
+
+}
+
+.leg{
+    text-decoration: underline;
+    font-weight:  bolder;
+}
+
+.nac{
+background-color: yellow;
+}
+
+.est{
+background-color: yellowgreen;
+}
+
+.idi{
+background-color: darkcyan;
+}
+
+.env{
+background-color: darkred;
 }
